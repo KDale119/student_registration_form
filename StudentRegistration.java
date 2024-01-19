@@ -16,6 +16,8 @@ public class StudentRegistration {
         System.out.print("Enter year of birth: ");
         String yearOfBirth = input.nextLine();
 
-
+        System.out.println("\nWelcome " + firstName + " " + lastName + "!");
+        System.out.println("Your registration is complete.");
+        System.out.println("Your temporary password is: " + firstName + "*" + yearOfBirth);
     }
 }
